@@ -1,0 +1,38 @@
+.newTask {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+
+  width: 39.875rem;
+  height: 3.375rem;
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  color: var(--gray-300);
+  font-weight: 400;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+  width: 5.625rem;
+  height: 3.375rem;
+
+  background: var(--blueDark);
+  border-radius: 8px;
+  color: var(--gray-100);
+  font-weight: 700;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
