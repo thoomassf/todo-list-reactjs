@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: -25px;
 }
 
 .input {
@@ -25,14 +26,21 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  margin-left: 0.5rem;
 
   width: 5.625rem;
   height: 3.375rem;
 
   background: var(--blueDark);
   border-radius: 8px;
+  border: 0;
   color: var(--gray-100);
   font-weight: 700;
   font-size: 0.875rem;
   cursor: pointer;
+}
+
+.icon {
+  margin-left: 0.5rem;
+  width: 20px;
 }

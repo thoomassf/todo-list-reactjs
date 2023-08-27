@@ -1,0 +1,120 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.newTask {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+
+  width: 39.875rem;
+  height: 3.375rem;
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  color: var(--gray-300);
+  font-weight: 400;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-left: 0.5rem;
+
+  width: 5.625rem;
+  height: 3.375rem;
+
+  background: var(--blueDark);
+  border-radius: 8px;
+  border: 0;
+  color: var(--gray-100);
+  font-weight: 700;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.icon {
+  margin-left: 0.5rem;
+  width: 20px;
+}
+
+.tasksHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.typeTask {
+  display: flex;
+  align-items: center;
+}
+
+.typeLabelLeft {
+  color: var(--blue);
+  font-size: 0.875rem;
+}
+
+.typeLabelRight {
+  color: var(--purple);
+  font-size: 0.875rem;
+}
+
+.contador {
+  calor: var(--gray-100);
+  font-weight: bold;
+  font-size: 0.75rem;
+
+  background: var(--gray-500);
+  
+  margin: 1rem;
+  padding: 0.125rem 0.7rem;
+  
+  border-radius: 10px;
+}
+
+.tasksContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBlank {
+  border-top: 0.5px solid var(--gray-300);
+  border-radius: 8px;
+  
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickBoardImg {
+  width: 56px;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.taskDescription {
+  font-size: 1rem;
+  line-height: 22.4px;
+  color: var(--gray-300);
+}

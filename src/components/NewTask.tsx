@@ -12,7 +12,7 @@ export function NewTask() {
 
       <button className={styles.button}>
         Criar
-        <PlusCircle size={20} />
+        <PlusCircle size={20} className={styles.icon} />
       </button>
     </div>
   );
