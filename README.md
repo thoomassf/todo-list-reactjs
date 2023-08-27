@@ -2,7 +2,7 @@
   <img src=".github/ToDoLogo.svg" alt="ToDo">
 </div>
 
-## 🚀[Preview](https://03-dt-money-three.vercel.app)
+## 🚀[Preview](https://todo-list-reactjs-three.vercel.app)
 
 <img src=".github/thumbnail.png" alt="thumbnail" />
 
@@ -18,7 +18,7 @@
 
 <div align="center">
   <br />
-  <img src=".github/ReactLogo.svg" width="70px" alt="React JS">
+  <img src=".github/reactLogo.svg" width="70px" alt="React JS">
   <img src=".github/typescriptLogo.svg" width="70px" alt="Typescript">
   <br />
 </div>
