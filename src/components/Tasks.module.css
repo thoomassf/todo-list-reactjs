@@ -43,7 +43,13 @@
   color: var(--gray-100);
   font-weight: 700;
   font-size: 0.875rem;
+
+  transition: 0.2s;
   cursor: pointer;
+}
+
+.button:hover {
+  background: var(--blue);
 }
 
 .icon {

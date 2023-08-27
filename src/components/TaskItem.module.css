@@ -34,6 +34,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: 0.2s;
+}
+
+.checkbox:hover {
+  background: var(--blueDark);
 }
 
 .button {
@@ -42,8 +48,14 @@
 
   border: 0;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .checkIcon {
   color: var(--gray-100);
+}
+
+.button:hover {
+  background: var(--gray-400);
+  border-radius: 4px;
 }
